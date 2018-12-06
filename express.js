@@ -1,6 +1,10 @@
 const express = require("express");
 const app = express();
 
+app.use(express.static('public'))
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+
 app.get("/math/:add/", (req, res) => {
   // console.log(req.params.val);
 
@@ -31,3 +35,10 @@ app.get("/math/:add/", (req, res) => {
 app.listen(8000, () => {
   console.log("this is port 8000");
 });
+
+// app.use(express.static('public'))
+// app.use(bodyParser.urlencoded({ extended: false }));
+// app.use(bodyParser.json());
+//app.get()
+
+//use a standard axios request and do npm install axios and do the regular api call

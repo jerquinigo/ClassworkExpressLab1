@@ -1,0 +1,23 @@
+{
+  "name": "classworkexpresslab1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "express.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerquinigo/ClassworkExpressLab1.git"
+  },
+  "author": "jonathan.e",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jerquinigo/ClassworkExpressLab1/issues"
+  },
+  "homepage": "https://github.com/jerquinigo/ClassworkExpressLab1#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4"
+  }
+}
